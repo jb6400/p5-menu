@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Alegreya SC';
+  font-weight: bold;
+}
+
+body{
+  background-image: url("jokerBG.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  line-height: 0.25px;
+  -webkit-text-stroke: 4px black;
+  color: #FFFFFF;
+  text-shadow:
+    10px 10px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+body > div {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: center;
+  transform: skewX(-17deg);
+  padding-top: 15vmin;
+  text-align: right;
+  padding-right: 40vmin;
+}
+
+.type{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 55vmin;
+  transform: skewY(-8deg);
+  font-size: 57pt;
+}
+
+.money{
+  display: flex;
+  justify-content: center;
+  transform: skewX(-15deg);
+  padding-top: 15vmin;
+  text-align: right;
+  padding-right: 100vmin;
+  padding-bottom: 13vmin;
+}
